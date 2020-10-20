@@ -37,9 +37,9 @@ class TicTacToe:
 
     def check_game_if_finished(self):
         if self.winner() == 'Nobody':
-            return 'No'
+            return 'No!'
         else:
-            return 'Yes'
+            return 'Yes!'
 
 
 if __name__ == '__main__':
